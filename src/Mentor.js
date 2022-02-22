@@ -4,8 +4,8 @@ import axios from "axios";
 
 import { Table, Button } from "react-bootstrap";
 
-const API_URL = "https://assign-stdent-mentor.herokuapp.com/mentor";
-const API_URL1 = "https://assign-stdent-mentor.herokuapp.com/students";
+const API_URL = "https://student-mentor-backent.herokuapp.com/mentor";
+const API_URL1 = "https://student-mentor-backent.herokuapp.com/students";
 
 class Mentor extends React.Component {
   constructor() {

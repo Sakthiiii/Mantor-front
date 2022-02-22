@@ -2,9 +2,9 @@ import React from "react";
 import axios from "axios";
 import { Table, Button } from "react-bootstrap";
 
-const API_URL = "https://assign-stdent-mentor.herokuapp.com/students";
-const API_URL1 = "https://assign-stdent-mentor.herokuapp.com/mentors";
-const API_URL2 = "https://assign-stdent-mentor.herokuapp.com/student";
+const API_URL = "https://student-mentor-backent.herokuapp.com/students";
+const API_URL1 = "https://student-mentor-backent.herokuapp.com/mentors";
+const API_URL2 = "https://student-mentor-backent.herokuapp.com/student";
 
 class Students extends React.Component {
   constructor() {
